@@ -21,5 +21,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^booklist/$', bookList),
+    (r'^reqtest/$', requestTest),
+    (r'^search/$', search),
     (r'^admin/', include(admin.site.urls)),
 )
